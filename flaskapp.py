@@ -22,6 +22,8 @@ conn = dbi.connect()
 conn.set_option(options) 
 cur = conn.cursor()
 
+
+
 query = "select * from pgfiles/supplies"
 cur.execute(query)
 
