@@ -14,6 +14,8 @@ print("%f is my favorite float" % float_number)
 print("%s %d years old" % (my_string, calculated_number))
 print(my_string + str(float_number))
 
+
+
 str_len = len(age_string)
 print(age_string)
 print(str_len)
